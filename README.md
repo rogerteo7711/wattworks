@@ -15,9 +15,14 @@ npm run dev
 3. Add your custom domain in Vercel → Settings → Domains, update DNS.
 
 ## Update placeholders
-- Replace your phone number, Formspree ID, email, and UEN in the component.
+- Replace `65YOURNUMBER` in `components/WattworksLanding.jsx` (WhatsApp link).
+- Replace `YOUR_FORMSPREE_ID` in the form action.
+- Update email, UEN, and any pricing.
 
 ## Stack
 - Next.js 14 (App Router)
 - Tailwind CSS
 
+## Notes
+- All icons/logos are inline SVG in the component (no external images required).
+- Add OG image and real favicon in `/public` when ready.
